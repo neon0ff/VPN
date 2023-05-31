@@ -53,4 +53,4 @@ Alex : EAP "alexPassgg"
 ```
 ### После добавления пользователя выполним команду `sudo ipsec secrets` чтобы Strongswan перечитал конфиг.
 
-### Исходник повзаимствован у [jawj](https://github.com/jawj/)
+### Исходник скрипта повзаимствован у [jawj](https://github.com/jawj/)
