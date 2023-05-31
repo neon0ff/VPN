@@ -1,11 +1,6 @@
 #!/bin/bash -e
 
 
-echo
-echo "=== https://github.com/jawj/IKEv2-setup ==="
-echo
-
-
 function exit_badly {
   echo "$1"
   exit 1
