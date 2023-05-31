@@ -44,4 +44,11 @@ VPN password (no quotes, please): yourpassword
 ```bash
 sudo nano /etc/ipsec.secrets
 ```
+### В итоге мы жолны видеть что то вроде списка пользователей и их паролей
+```bash
+yourdomain.com : RSA "privkey.pem"
+VPNuser1 : EAP "UserPass1"
+VPNuser2 : EAP "UserPass2"
+Alex : EAP "alexPassgg"
+```
 ### После добавления пользователя выполним команду `sudo ipsec secrets` чтобы Strongswan перечитал конфиг.
