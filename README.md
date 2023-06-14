@@ -37,7 +37,7 @@ VPN password (no quotes, please): yourpassword
 ```
 ### Таймзону
 ```bash
-Timezone (default: Europe/London): Europe/moscow 
+Timezone (default: Europe/London): Europe/Moscow 
 ```
 ### Дальше скрипт запросит создать нового SSH-пользователя, этот шаг нельзя пропускать.
 <sub> В дальнейшем мы не сможем пользоваться нашим пользователем и будем использовать созданного или root</sub>
