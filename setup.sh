@@ -179,6 +179,7 @@ iptables -A INPUT -p tcp --dport "${SSHPORT}" -j ACCEPT
 # accept IPSec/NAT-T for VPN (ESP not needed with forceencaps, as ESP goes inside UDP)
 iptables -A INPUT -p udp --dport  500 -j ACCEPT
 iptables -A INPUT -p udp --dport 4500 -j ACCEPT
+iptables -A INPUT -p tcp --dport 10050 -j ACCEPT #for Zabbix Agent
 
 # forward VPN traffic anywhere
 iptables -A FORWARD --match policy --pol ipsec --dir in  --proto esp -s "${VPNIPPOOL}" -j ACCEPT
